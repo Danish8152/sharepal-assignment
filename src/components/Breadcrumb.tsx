@@ -1,0 +1,5 @@
+export default function Breadcrumb() {
+  return (
+<nav aria-label="breadcrumb" className="container py-3 md:py-6"><ol className="flex-wrap gap-1.5 break-words text-sm text-muted-foreground sm:gap-2.5 line-clamp-1 flex items-center justify-start overflow-hidden"><span className="inline-flex items-center gap-1.5"><a className="transition-colors hover:text-foreground !text-sh7 font-semibold text-neutral-500 hover:text-neutral-600 md:!text-sh5" href="/bangalore">Bangalore</a><li role="presentation" aria-hidden="true" className="[&>svg]:h-3.5 [&>svg]:w-3.5"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-right h-4 w-4"><path d="m9 18 6-6-6-6" /></svg></li></span><span className="inline-flex items-center gap-1.5"><span role="link" aria-disabled="true" aria-current="page" className="!text-sh7 font-semibold text-neutral-900 md:!text-sh5">Gaming gadgets on rent</span></span></ol></nav>
+  );
+}
